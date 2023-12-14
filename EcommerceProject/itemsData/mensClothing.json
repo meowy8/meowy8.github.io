@@ -1,0 +1,60 @@
+{
+  "bestsellers": {
+    "item1": {
+      "name": "Beige Shirt",
+      "src": "Images/products/men_images/beige-shirt-1.webp",
+      "price": 29.99
+    },
+    "item2": {
+      "name": "Black Shirt",
+      "src": "Images/products/men_images/black-shirt-1.webp",
+      "price": 29.99
+    },
+    "item3": {
+      "name": "Blue Jeans",
+      "src": "Images/products/men_images/blue-jeans-1.webp",
+      "price": 29.99
+    },
+    "item4": {
+      "name": "Green Hoodie",
+      "src": "Images/products/men_images/green-hoodie-1.webp",
+      "price": 29.99
+    },
+    "item5": {
+      "name": "White Cargo Trousers",
+      "src": "Images/products/men_images/white-cargo-trousers-1.webp",
+      "price": 29.99
+    }
+  },
+  "t-shirts": {
+    "item1": {
+      "name": "Beige Shirt",
+      "src": "Images/products/men_images/beige-shirt-1.webp",
+      "price": 29.99
+    },
+    "item2": {
+      "name": "Black Shirt",
+      "src": "Images/products/men_images/black-shirt-1.webp",
+      "price": 29.99
+    }
+  },
+  "trousers": {
+    "item1": {
+      "name": "White Cargo Trousers",
+      "src": "Images/products/men_images/white-cargo-trousers-1.webp",
+      "price": 29.99
+    },
+    "item2": {
+      "name": "Blue Jeans",
+      "src": "Images/products/men_images/blue-jeans-1.webp",
+      "price": 29.99
+    }
+  },
+  "sweatshirts/hoodies": {
+    "item1": {
+      "name": "Green Hoodie",
+      "src": "Images/products/men_images/green-hoodie-1.webp",
+      "price": 29.99
+    }
+  }
+}

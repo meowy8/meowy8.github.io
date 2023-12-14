@@ -1,0 +1,40 @@
+{
+  "bestsellers": {
+    "item1": {
+      "name": "Silver Bracelet",
+      "src": "Images/products/accessories/silver-bracelet.webp",
+      "price": 49.99
+    },
+    "item2": {
+      "name": "Grey Hat",
+      "src": "Images/products/accessories/grey-hat.webp",
+      "price": 9.99
+    },
+    "item3": {
+      "name": "Black Bag",
+      "src": "Images/products/accessories/black-bag.webp",
+      "price": 9.99
+    }
+  },
+  "jewellery": {
+    "item1": {
+      "name": "Silver Bracelet",
+      "src": "Images/products/accessories/silver-bracelet.webp",
+      "price": 49.99
+    }
+  },
+  "hats": {
+    "item1": {
+      "name": "Grey Hat",
+      "src": "Images/products/accessories/grey-hat.webp",
+      "price": 9.99
+    }
+  },
+  "bags": {
+    "item1": {
+      "name": "Black Bag",
+      "src": "Images/products/accessories/black-bag.webp",
+      "price": 9.99
+    }
+  }
+}

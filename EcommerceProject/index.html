@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Neuton:wght@500&family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Finesse</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <button class="title-btn" id="title-btn">
+        <h1 class="shop-title">Finesse</h1>
+      </button>
+      <ul class="shop-sections">
+        <li class="shop-section men-section" id="men">
+          <button class="men-btn">MEN</button>
+          <div class="dropdown men-section-dropdown" id="dropdown">
+            <ul>
+              <li>
+                <button>Bestsellers</button>
+              </li>
+              <li>
+                <button>T-Shirts/Shirts</button>
+              </li>
+              <li>
+                <button>Trousers</button>
+              </li>
+              <li>
+                <button>Sweatshirts/Hoodies</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="shop-section">
+          <button class="women-btn">WOMEN</button>
+          <div class="dropdown women-section-dropdown" id="dropdown">
+            <ul>
+              <li>
+                <button>Bestsellers</button>
+              </li>
+              <li>
+                <button>T-Shirts/Shirts</button>
+              </li>
+              <li>
+                <button>Trousers</button>
+              </li>
+              <li>
+                <button>Sweatshirts/Hoodies</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="shop-section">
+          <button class="accessories-btn">ACCESSORIES</button>
+          <div class="dropdown accessories-section-dropdown" id="dropdown">
+            <ul>
+              <li>
+                <button>Bestsellers</button>
+              </li>
+              <li>
+                <button>Jewellery</button>
+              </li>
+              <li>
+                <button>Hats</button>
+              </li>
+              <li>
+                <button>Bags</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <div class="search-bar-container">
+        <input type="text" class="search-bar" placeholder="Shop for the latest fashion!">
+      </div>
+      <ul class="icons-list">
+        <li>
+          <button class="profile-icon" id="profile-icon-btn">
+            <span class="material-symbols-outlined" id="profile-icon">
+              person
+            </span>
+          </button>
+          <div class="sign-in-dropdown" id="sign-in-dropdown">
+            <div class="sign-in-dropdown-heading">
+              <p>Sign In</p>
+            </div>
+            <div>
+              <label for="username">Username:</label>
+              <input type="text" id="username">
+              <label for="password">Password:</label>
+              <input type="password" id="password">
+            </div>
+          </div>
+        </li>
+        <li>
+          <button class="favourites-icon" id="favourites-btn">
+            <span class="material-symbols-outlined" id="fav-icon">
+              favorite
+            </span>
+          </button>
+          <div class="favourites-dropdown" id="favourites-dropdown">
+            <div class="favourites-dropdown-heading">
+              <p>Favourites</p>
+            </div>
+            <div class="favourites-items" id="favourites-items"></div>
+          </div>
+        </li>
+        <li>
+          <button class="basket-icon" id="basket-btn">
+            <span class="material-symbols-outlined" id="basket-icon">
+              shopping_basket
+            </span>
+          </button>
+          <div class="basket-dropdown" id="basket-dropdown">
+            <div class="basket-dropdown-heading">
+              <p>Basket</p>
+            </div>
+            <div class="basket-items" id="basket-items"></div>
+            <div class="basket-total">
+              <p>Total: £<span>0</span></p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="main-display" id="main-display">
+      <div class="main-display-left">
+        <img src="/Images/pexels-saulo-leite-7695498.jpg" alt="">
+        <button class="main-display-men-btn" id="main-display-men-btn">
+          <h2>MEN</h2>
+        </button>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="main-display-right">
+        <button class="main-display-women-btn" id="main-display-women-btn">
+          <h2>WOMEN</h2>
+        </button>
+        <img src="/Images/pexels-godisable-jacob-1374910.jpg" alt="">
+      </div>
+    </section>
+    <section class="products-display" id="products-display">
+    </section>
+  </main>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

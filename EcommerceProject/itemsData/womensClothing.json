@@ -1,0 +1,40 @@
+{
+  "bestsellers": {
+    "item1": {
+      "name": "Floral Shirt",
+      "src": "Images/products/women_images/floral-shirt.jpeg",
+      "price": 24.99
+    },
+    "item2": {
+      "name": "White Cargo Trousers",
+      "src": "Images/products/women_images/white-cargo-trousers.webp",
+      "price": 44.99
+    },
+    "item3": {
+      "name": "Black Sweater",
+      "src": "Images/products/women_images/black-sweater.webp",
+      "price": 49.99
+    }
+  },
+  "t-shirts": {
+    "item1": {
+      "name": "Floral Shirt",
+      "src": "Images/products/women_images/floral-shirt.jpeg",
+      "price": 24.99
+    }
+  },
+  "trousers": {
+    "item1": {
+      "name": "White Cargo Trousers",
+      "src": "Images/products/women_images/white-cargo-trousers.webp",
+      "price": 44.99
+    }
+  },
+  "sweatshirts/hoodies": {
+    "item1": {
+      "name": "Black Sweater",
+      "src": "Images/products/women_images/black-sweater.webp",
+      "price": 49.99
+    }
+  }
+}
